@@ -5,7 +5,15 @@
 body {
   font-size: 16px;
   font-family: Arial;
-  background-color: #F7FAFC;
+  /* background-color: #F7FAFC; */
+  background: linear-gradient(
+    to bottom,
+    rgba(54, 187, 150, 0.3) 0%,
+    rgba(22, 22, 22, 0.7) 75%,
+    #161616 100%
+  ),
+  url("https://www.bleedingcool.com/wp-content/uploads/2011/11/sport-of-tycoons-carl-barks.jpg");
+  background-size: cover;
 }
 
 button,
@@ -16,6 +24,11 @@ input {
 
 label {
   font-weight: 900;
+  color: gold;
+}
+
+h1 {
+  color: white;
 }
 
 input {

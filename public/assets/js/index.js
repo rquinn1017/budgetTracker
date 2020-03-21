@@ -1,5 +1,7 @@
 let transactions = [];
 let myChart;
+Chart.defaults.global.defaultFontColor = 'yellow';
+
 
 fetch("/api/transaction")
   .then(response => response.json())
@@ -70,8 +72,8 @@ function populateChart() {
           label: "Available Balance",
           fill: true,
           backgroundColor: 'transparent',
-          borderColor: '#29a745',
-          pointBackgroundColor: '#29a745',
+          borderColor: '#ffffff',
+          pointBackgroundColor: '#29fa745',
           data
         }
       ]
